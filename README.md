@@ -14,13 +14,13 @@ As a blockchain developer, you can get started by going through [Solidity docume
 
 ## Cakeshop
 
-Cakeshop lets you manage a local blockchain node. It comes with APIs and tools that you can use to set up the cluster node, work with contracts, and explore the chain.
+Cakeshop is a set of tools and APIs for working with Ethereum, packaged as a Java web application archive (WAR) that gets you up and running quickly. Cakeshop can either start up a geth node, which you can then interact with using the Cakeshop front-end, or it can be connected to an Ethereum-like node, such as Quorum, that you already have running. A given Cakeshop instance connects with one node on the blockchain network you connect to. Cakeshop lets you manage a local blockchain node. It comes with APIs and tools that you can use to set up the cluster node, work with contracts, and explore the chain.
+
+- [Cakeshop documentation site](https://docs.goquorum.consensys.net/en/stable/Concepts/Cakeshop/)
 
 ## Geth
 
-Geth is Ethereum node implementation. It is created using the Go programming language. Geth is used in a variety of tasks on the Ethereum blockchain. It can be used to transfer tokens, mine Ether tokens, and create smart contracts. Furthermore, it can also be used to explore block history.
-
-Geth is available in the three interfaces including:
+Geth is Ethereum node implementation. It is created using the Go programming language. Geth is used in a variety of tasks on the Ethereum blockchain. It can be used to transfer tokens, mine Ether tokens, and create smart contracts. Furthermore, it can also be used to explore block history.  Geth is available in the three interfaces including:
 
 - JSON-RPC server.
 - Command-line.
@@ -29,6 +29,8 @@ Geth is available in the three interfaces including:
 As a blockchain developer, you can use Geth on Windows, Mac, and Linux. Once you install Geth, you need to either connect to an existing blockchain or create your own. To simplify things, Geth automatically connects to the Ethereum mainnet.
 
 Warning: Geth downloads the whole Ethereum blockchain before you can start using it. Depending on your internet speed connection, it can take a while. We also recommend using an external hard disk to store the Ethereum blockchain.
+
+- [Geth Ethereum Documentation](https://geth.ethereum.org/docs/getting-started)
 
 ## Blockchain Testnet
 
