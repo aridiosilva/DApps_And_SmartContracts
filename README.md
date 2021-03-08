@@ -2,7 +2,7 @@
 
 Distributed Applications and Smart Contracts - Based on Blockchain Technology
 
-# Tools for Development
+# Tools for Blockchain Development
 
 ## Solidity
 
@@ -56,17 +56,13 @@ As a blockchain developer, you should know how to work with BaaS. It can help yo
 
 ## Truffle
 
-Truffle is an Ethereum blockchain framework. It offers an asset pipeline and development environment for Ethereum development.
-
-With Truffle, you can develop complex Ethereum dApps and smart contracts. It has a vast library that lets you tackle challenging requirements.
-
-The key features offered by Truffle include the following:
+Truffle is an Ethereum blockchain framework. It offers an asset pipeline and development environment for Ethereum development. With Truffle, you can develop complex Ethereum dApps and smart contracts. It has a vast library that lets you tackle challenging requirements. The key features offered by Truffle include the following:
 
 - Automate contract testing using Chai and Mocha.
 - Do full smart contract development including linking, compilation, and deployment.
 - Do custom build procedures with the configurable build pipeline.
 
-- [li to Truffle homepage](https://www.trufflesuite.com)
+[Truffle homepage](https://www.trufflesuite.com)
 
 ## Ether.js
 
