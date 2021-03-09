@@ -4,6 +4,62 @@ Distributed Applications and Smart Contracts - Based on Blockchain Technology
 
 # The Blockchain Platform That Supports Distributed Applications
 
+## Peer-to-Peer Network Architecture
+
+Bitcoin is structured as a peer-to-peer network architecture on top of the internet. The term peer-to-peer, or P2P, means that the computers that participate in the network
+are peers to each other, that they are all equal, that there are no “special” nodes,and that all nodes share the burden of providing network services. The network
+nodes interconnect in a mesh network with a “flat” topology. There is no server, no centralized service, and no hierarchy within the network. Nodes in a P2P network
+both provide and consume services at the same time with reciprocity acting as the incentive for participation. P2P networks are inherently resilient, decentralized, and 
+open. A preeminent example of a P2P network architecture was the early internet itself, where nodes on the IP network were equal. Today’s internet architecture is
+more hierarchical, but the Internet Protocol still retains its flat-topology essence.
+
+Beyond bitcoin, the largest and most successful application of P2P technologies is file sharing, with Napster as the pioneer and BitTorrent as the most recent evolution of
+the architecture. Bitcoin’s P2P network architecture is much more than a topology choice. Bitcoin is a P2P digital cash system by design, and the network architecture is both a reflection and a foundation of that core characteristic. Decentralization of control is a core design principle that can only be achieved and maintained by a flat, decentralized P2P consensus network.
+
+The term “bitcoin network” refers to the collection of nodes running the bitcoin P2P protocol. In addition to the bitcoin P2P protocol, there are other protocols such as
+Stratum that are used for mining and lightweight or mobile wallets. These additional protocols are provided by gateway routing servers that access the bitcoin network
+using the bitcoin P2P protocol and then extend that network to nodes running other 171 protocols. For example, Stratum servers connect Stratum mining nodes via the Stratum
+protocol to the main bitcoin network and bridge the Stratum protocol to the bitcoin P2P protocol. We use the term “extended bitcoin network” to refer to the overall
+network that includes the bitcoin P2P protocol, pool-mining protocols, the Stratum protocol, and any other related protocols connecting the components of the bitcoin
+system.
+
+## Node Types and Roles
+
+![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20-%20A%20bitcoin%20network%20node%20with%20all%20four%20functions%2000801.png)
+
+Although nodes in the bitcoin P2P network are equal, they may take on different roles depending on the functionality they are supporting. 
+
+A bitcoin node is a collection of functions: 
+
+> - routing, 
+> - the blockchain database, 
+> -  mining, and 
+> -  wallet services. 
+ 
+A full node with all four of these functions is shown in Figure below:
+ 
+![]()
+
+
+
+All nodes include the routing function to participate in the network and might include other functionality. All nodes validate and propagate transactions and blocks,
+and discover and maintain connections to peers. In the full-node example in Figure 8-1, the routing function is indicated by an orange circle named “Network
+Routing Node” or with the letter “N.” 
+
+Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction
+without external reference. Some nodes maintain only a subset of the blockchain and verify transactions using a method called simpliied payment veriication, or SPV.
+These nodes are known as SPV nodes or lightweight nodes. In the full-node example in the figure, the full-node blockchain database function is indicated by a blue circle
+172 | Chapter 8: The Bitcoin Network called “Full Blockchain” or the letter “B.” In Figure 8-3, SPV nodes are drawn without the blue circle, showing that they do not have a full copy of the blockchain.
+
+Mining nodes compete to create new blocks by running specialized hardware to solve the Proof-of-Work algorithm. Some mining nodes are also full nodes, maintaining a
+full copy of the blockchain, while others are lightweight nodes participating in pool mining and depending on a pool server to maintain a full node. The mining function
+is shown in the full node as a black circle called “Miner” or the letter “M.” User wallets might be part of a full node, as is usually the case with desktop bitcoin
+clients. Increasingly, many user wallets, especially those running on resourceconstrained devices such as smartphones, are SPV nodes. The wallet function is shown in Figure 8-1 as a green circle called “Wallet” or the letter “W.” In addition to the main node types on the bitcoin P2P protocol, there are servers and nodes running other protocols, such as specialized mining pool protocols and lightweight client-access protocols
+
+## Diferent types of nodes on the extended bitcoin network
+
+
+
 ![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20The%20extended%20bitcoin%20network%20with%20various%20node%20types%2C%20gateways%2C%20and%20protocols%20001.png)
 
 # The Blockchain Data Structure
