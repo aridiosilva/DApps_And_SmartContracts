@@ -2,6 +2,10 @@
 
 Distributed Applications and Smart Contracts - Based on Blockchain Technology
 
+# The Blockchain Platform That Supports Distributed Applications
+
+!{](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20The%20extended%20bitcoin%20network%20with%20various%20node%20types%2C%20gateways%2C%20and%20protocols%20001.png)
+
 # The Blockchain Data Structure
 
 ## Introduction
