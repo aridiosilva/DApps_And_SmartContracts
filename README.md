@@ -29,6 +29,9 @@ system.
 
 Although nodes in the bitcoin P2P network are equal, they may take on different roles depending on the functionality they are supporting. 
 
+All nodes include the routing function to participate in the network and might include other functionality. All nodes validate and propagate transactions and blocks,
+and discover and maintain connections to peers. 
+
 A bitcoin node is a collection of functions: 
 
 > - routing, 
@@ -36,30 +39,36 @@ A bitcoin node is a collection of functions:
 > -  mining, and 
 > -  wallet services. 
  
-A full node with all four of these functions is shown in Figure below:
- 
+A full node with all four of these functions is shown in Figure below. In the full-node example in Figure 8-1, the routing function is indicated by an orange circle named “Network Routing Node” or with the letter “N.” Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction without external reference. The full-node blockchain database function is indicated by a blue circle called “Full Blockchain” or the letter “B.”
+
+Some nodes maintain only a subset of the blockchain and verify transactions using a method called **simplified payment veriication**, or **SPV**. These nodes are known as SPV nodes or lightweight nodes.  In Figure 8-3, SPV nodes are drawn without the blue circle, showing that they do not have a full copy of the blockchain.
+
+ining nodes compete to create new blocks by running specialized hardware to solve the **Proof-of-Work (PoW) algorithm*.  Some mining nodes are also full nodes, maintaining a full copy of the blockchain, while others are lightweight nodes participating in pool mining and depending on a pool server to maintain a full node. The mining function is shown in the full node as a black circle called “Miner” or the letter “M.” User wallets might be part of a full node, as is usually the case with desktop bitcoin clients.
+
+Increasingly, many user wallets, especially those running on resourceconstrained devices such as smartphones, are SPV nodes.  The wallet function is shown in images above as a green circle called “Wallet” or the letter “W.”  In addition to the main node types on the bitcoin P2P protocol, there are servers and nodes running other protocols, such as specialized mining pool protocols and lightweight client-access protocols.
+
 ![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20-%20A%20bitcoin%20network%20node%20with%20all%20four%20functions%2000801.png)
 
+![Lightweight SPV nodes](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20Lightweight%20SPV%20Wallet%20Node%20004.png)
+
+![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20Lightweight%20SPV%20Stratum%20Wallet%20Node%20009.png)
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
 
 
-
-All nodes include the routing function to participate in the network and might include other functionality. All nodes validate and propagate transactions and blocks,
-and discover and maintain connections to peers. In the full-node example in Figure 8-1, the routing function is indicated by an orange circle named “Network
-Routing Node” or with the letter “N.” 
-
-Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction
-without external reference. Some nodes maintain only a subset of the blockchain and verify transactions using a method called simpliied payment veriication, or SPV.
-These nodes are known as SPV nodes or lightweight nodes. In the full-node example in the figure, the full-node blockchain database function is indicated by a blue circle
-172 | Chapter 8: The Bitcoin Network called “Full Blockchain” or the letter “B.” In Figure 8-3, SPV nodes are drawn without the blue circle, showing that they do not have a full copy of the blockchain.
-
-Mining nodes compete to create new blocks by running specialized hardware to solve the Proof-of-Work algorithm. Some mining nodes are also full nodes, maintaining a
-full copy of the blockchain, while others are lightweight nodes participating in pool mining and depending on a pool server to maintain a full node. The mining function
-is shown in the full node as a black circle called “Miner” or the letter “M.” User wallets might be part of a full node, as is usually the case with desktop bitcoin
-clients. Increasingly, many user wallets, especially those running on resourceconstrained devices such as smartphones, are SPV nodes. The wallet function is shown in Figure 8-1 as a green circle called “Wallet” or the letter “W.” In addition to the main node types on the bitcoin P2P protocol, there are servers and nodes running other protocols, such as specialized mining pool protocols and lightweight client-access protocols
-
-## Diferent types of nodes on the extended bitcoin network
-
-
+## The Bitcoin Network for Example
 
 
 # The Blockchain Data Structure
