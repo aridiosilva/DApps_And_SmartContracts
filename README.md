@@ -23,9 +23,9 @@ protocol to the main bitcoin network and bridge the Stratum protocol to the bitc
 network that includes the bitcoin P2P protocol, pool-mining protocols, the Stratum protocol, and any other related protocols connecting the components of the bitcoin
 system.
 
-## Node Types and Roles
+## Blockchain Platform - Node Types and Roles 
 
-![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20-%20A%20bitcoin%20network%20node%20with%20all%20four%20functions%2000801.png)
+![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20The%20extended%20bitcoin%20network%20with%20various%20node%20types%2C%20gateways%2C%20and%20protocols%20001.png)
 
 Although nodes in the bitcoin P2P network are equal, they may take on different roles depending on the functionality they are supporting. 
 
@@ -38,7 +38,8 @@ A bitcoin node is a collection of functions:
  
 A full node with all four of these functions is shown in Figure below:
  
-![]()
+![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20-%20A%20bitcoin%20network%20node%20with%20all%20four%20functions%2000801.png)
+
 
 
 
@@ -60,7 +61,6 @@ clients. Increasingly, many user wallets, especially those running on resourceco
 
 
 
-![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20The%20extended%20bitcoin%20network%20with%20various%20node%20types%2C%20gateways%2C%20and%20protocols%20001.png)
 
 # The Blockchain Data Structure
 
