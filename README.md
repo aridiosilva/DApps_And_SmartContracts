@@ -1,4 +1,4 @@
-# DApps_And_Smart Contracts
+# DApps and Smart Contracts
 
 Distributed Applications and Smart Contracts - Based on Blockchain Technology
 
