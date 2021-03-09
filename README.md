@@ -4,6 +4,15 @@ Distributed Applications and Smart Contracts - Based on Blockchain Technology
 
 ## The Blockchain - Framework That Supports Distributed Applications
 
+## Core Blockchain Architecture Components
+
+> - **Node** - user or computer within the blockchain architecture (each has an independent copy of the whole blockchain ledger)
+> - **Transaction** - smallest building block of a blockchain system (records, information, etc.) that serves as the purpose of blockchain
+> - **Block** - a data structure used for keeping a set of transactions which is distributed to all nodes in the network
+> - **Chain** - a sequence of blocks in a specific order
+> - **Miners** - specific nodes which perform the block verification process before adding anything to the blockchain structure
+> - **Consensus (consensus protocol)** - a set of rules and arrangements to carry out blockchain operations
+
 ## Peer-to-Peer Network Architecture
 
 Bitcoin is structured as a peer-to-peer network architecture on top of the internet. The term peer-to-peer, or P2P, means that the computers that participate in the network
