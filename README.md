@@ -52,7 +52,7 @@ Below we can see the four functions that can exist in one blockchain node:
 
 ![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20-%20A%20bitcoin%20network%20node%20with%20all%20four%20functions%2000801.png)
 
-A full node with all four of these functions is shown in Figure below. In the full-node example in Figure 8-1, the routing function is indicated by an orange circle named “Network Routing Node” or with the letter “N.” Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction without external reference. The full-node blockchain database function is indicated by a blue circle called “Full Blockchain” or the letter “B.”
+A full node with all four of these functions is shown in image above. In the full-node example in Figure 8-1, the routing function is indicated by an orange circle named “Network Routing Node” or with the letter “N.” Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction without external reference. The full-node blockchain database function is indicated by a blue circle called “Full Blockchain” or the letter “B.”
 
 Some nodes maintain only a subset of the blockchain and verify transactions using a method called **simplified payment veriication**, or **SPV**. These nodes are known as SPV nodes or lightweight nodes.  In Figure 8-3, SPV nodes are drawn without the blue circle, showing that they do not have a full copy of the blockchain.
 
