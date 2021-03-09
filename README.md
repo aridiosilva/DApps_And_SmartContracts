@@ -74,8 +74,6 @@ Increasingly, many user wallets, especially those running on resourceconstrained
 
 ![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20Mining%20Nodes%20007.png)
 
-![Figure Validator Node and Memember Node 001](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20Validator%20Node%20and%20Memember%20Node%20001.jpg)
-
 # The Blockchain Data Structure
 
 ## Introduction
