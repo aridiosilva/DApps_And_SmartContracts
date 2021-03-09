@@ -208,6 +208,22 @@ int main()
     return 0;
 }
 ```
+Below are the results of compiling and running the merkle example code above:
+
+```shell
+$ # Compile the merkle.cpp code
+$ g++ -o merkle merkle.cpp $(pkg-config --cflags --libs libbitcoin)
+$ # Run the merkle executable
+$ ./merkle
+Current merkle hash list:
+  32650049a0418e4380db0af81788635d8b65424d397170b8499cdc28c4d27006
+  30861db96905c8dc8b99398ca1cd5bd5b84ac3264a4e1b3e65afa1bcee7540c4
+
+Current merkle hash list:
+  d47780c084bad3830bcdaf6eace035e4c6cbf646d103795d22104fb105014ba3
+
+Result: d47780c084bad3830bcdaf6eace035e4c6cbf646d103795d22104fb105014ba3
+```
 
 # Tools for Blockchain Development
 
