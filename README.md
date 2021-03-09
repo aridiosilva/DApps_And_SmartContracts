@@ -2,7 +2,7 @@
 
 Distributed Applications and Smart Contracts - Based on Blockchain Technology
 
-# The Blockchain Platform That Supports Distributed Applications
+## The Blockchain - Framework That Supports Distributed Applications
 
 ## Peer-to-Peer Network Architecture
 
@@ -23,9 +23,9 @@ protocol to the main bitcoin network and bridge the Stratum protocol to the bitc
 network that includes the bitcoin P2P protocol, pool-mining protocols, the Stratum protocol, and any other related protocols connecting the components of the bitcoin
 system.
 
-## Blockchain Platform - Node Types and Roles 
-
 ![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20The%20extended%20bitcoin%20network%20with%20various%20node%20types%2C%20gateways%2C%20and%20protocols%20001.png)
+
+## Blockchain Platform - Node Types and Roles 
 
 Although nodes in the bitcoin P2P network are equal, they may take on different roles depending on the functionality they are supporting. 
 
