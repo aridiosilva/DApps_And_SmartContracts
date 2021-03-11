@@ -94,6 +94,8 @@ In the blockchain, the most recent few blocks might be revised if there is a cha
 
 ## Structure of a Block
 
+![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure_block_strcuture_of_blockchain001.jpg)
+
 A block is a container data structure that aggregates transactions for inclusion in the public ledger, the blockchain. The block is made of a header, containing metadata, followed by a long list of transactions that make up the bulk of its size. The block header is 80 bytes, whereas the average transaction is at least 250 bytes and the average block contains more than 500 transactions. A complete block, with all transactions, is therefore 1,000 times larger than the block header. Table below describes the structure of a block.
 
 ![block structure](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Table%207-1.%20The%20structure%20of%20a%20block%20001.png)
