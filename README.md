@@ -80,7 +80,7 @@ Increasingly, many user wallets, especially those running on resource constraine
 
 The blockchain data structure is an ordered, back-linked list of blocks of transactions. 
 
-![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Figure%20Blocks%20linked%20in%20a%20Chain%20-%20BLockchain%20001.png)
+![](https://github.com/aridiosilva/DApps_And_SmartContracts/blob/main/Chain_of_Blocks_Ordered%2CBack-Linked_list_Blockchain.jpg)
 
 The blockchain can be stored as a flat file, or in a simple database. The Bitcoin Core client stores the blockchain metadata using Google’s LevelDB database. Blocks are linked “back,” each referring to the previous block in the chain. The blockchain is often visualized as a vertical stack, with blocks layered on top of each other and the first block serving as the foundation of the stack. The visualization of blocks stacked on top of each other results in the use of terms such as “height” to refer to the distance from the first block, and “top” or “tip” to refer to the most recently added block.
 
